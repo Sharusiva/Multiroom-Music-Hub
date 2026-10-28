@@ -1,0 +1,41 @@
+# Multiroom Music Hub
+
+## Run locally
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18 or later
+- npm
+
+### Setup
+
+```bash
+git clone <repository-url>
+cd Multiroom-Music-Hub
+npm install
+```
+
+If the project includes an environment template, create your local environment file:
+
+```bash
+cp .env.example .env
+```
+
+Update `.env` with the required local configuration, then start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL printed in the terminal, typically:
+
+```text
+http://localhost:3000
+```
+
+## Production build
+
+```bash
+npm run build
+npm start
+```
